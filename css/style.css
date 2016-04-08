@@ -1,0 +1,67 @@
+.top-nav {
+	background-color: #fff;
+	width: 100%;
+	z-index: 9999;
+	border-bottom: 1px solid #DDD;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	position: fixed;
+	margin: 0px;
+	position: relative;
+	
+}
+.logo {
+	position: relative;
+	padding-top: 10px;
+}
+
+.top-nav .content {
+	width: 100px
+	height: 70px;
+	margin: 0 auto;
+	padding: 0px 20px;
+	box-sizing: border-box;
+}
+
+.top-nav .links {
+	float: right;
+	color: gray;
+	font-size: 18px;
+	margin-top: 25px;
+	margin-right: 50px;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.top-nav .links li { 
+	display: inline-block;
+	margin-left: 90px;
+	padding-top: 10px;
+}
+
+/*Introduction*/
+
+.banner h1, h3 {
+	color: black;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+
+/*Projects Section*/
+
+.projects h1, {
+	text-align: center;
+}
+
+.work li {
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+	margin: 100px;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
