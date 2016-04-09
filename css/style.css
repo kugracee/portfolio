@@ -7,12 +7,12 @@
 	box-sizing: border-box;
 	position: fixed;
 	margin: 0px;
-	position: relative;
 	
 }
 .logo {
 	position: relative;
 	padding-top: 10px;
+	margin-left: 300px;
 }
 
 .top-nav .content {
@@ -24,11 +24,13 @@
 }
 
 .top-nav .links {
+	position: fixed;
 	float: right;
-	color: gray;
+	color: #800000;
 	font-size: 18px;
 	margin-top: 25px;
 	margin-right: 50px;
+	padding-left: 400px;
 	-webkit-font-smoothing: antialiased;
 	font-family: 'Josefin Sans', sans-serif;
 }
@@ -41,27 +43,69 @@
 
 /*Introduction*/
 
-.banner h1, h3 {
-	color: black;
-	text-align: center;
+.image {
+	position: relative;
+  	background-size: cover;
+
+}
+
+.image h1, h3 {
+	position: absolute;
+	top: 300px;
+	color: #fff;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 300;
-	padding-right: 100px;
-	padding-left: 100px;
+	text-align: center;
+	width: 100%;
+	}
+
+.image h1 {
+	font-size: 75px;
+	text-transform: uppercase;
+}
+
+.image h3 {
+	padding-top: 125px;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
 }
 
 
 /*Projects Section*/
 
-.projects h1, {
+.projects {
 	text-align: center;
+}
+
+.projects h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	color: #800000;
+	text-transform: uppercase;
+	padding-top: 50px;
+
 }
 
 .work li {
 	list-style: none;
-	text-align: center;
+	padding-top: 75px;
 	display: inline-block;
-	margin: 100px;
 	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.content-footer {
+	margin-top: 5em;
+	text-align: center;
+}
+
+.content-footer li {
+	list-style: none;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+
 
 }
