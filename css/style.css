@@ -1,3 +1,6 @@
+@media only screen and (max-width: 500px){
+	}
+
 .top-nav {
 	background-color: #fff;
 	width: 100%;
@@ -5,7 +8,6 @@
 	border-bottom: 1px solid #DDD;
 	vertical-align: baseline;
 	box-sizing: border-box;
-	position: fixed;
 	margin: 0px;
 	
 }
@@ -24,13 +26,12 @@
 }
 
 .top-nav .links {
-	position: fixed;
 	float: right;
-	color: #800000;
+	color: #002954;
 	font-size: 18px;
-	margin-top: 25px;
+	margin-top: 30px;
 	margin-right: 50px;
-	padding-left: 400px;
+	padding-left: 100px;
 	-webkit-font-smoothing: antialiased;
 	font-family: 'Josefin Sans', sans-serif;
 }
@@ -38,20 +39,20 @@
 .top-nav .links li { 
 	display: inline-block;
 	margin-left: 90px;
-	padding-top: 10px;
+	padding-top: 0px;
 }
 
 /*Introduction*/
 
 .image {
-	position: relative;
-  	background-size: cover;
-
+  	background-image: url("http://alqueria.cl/bg/images/image1.jpg");
+	height: 700px;
+	width: 100%
+	background-size: cover;
 }
 
 .image h1, h3 {
-	position: absolute;
-	top: 300px;
+	padding-top: 250px;
 	color: #fff;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 300;
@@ -62,10 +63,11 @@
 .image h1 {
 	font-size: 75px;
 	text-transform: uppercase;
+	margin: 0;
 }
 
 .image h3 {
-	padding-top: 125px;
+	padding-top: 15px;
 	font-size: 30px;
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
@@ -88,24 +90,51 @@
 
 }
 
+h4 {
+	color: #002954;
+	font-size: 18px;
+}
+
+.work {
+	padding: 0;
+}
+
 .work li {
 	list-style: none;
-	padding-top: 75px;
+	padding-top: 50px;
+	padding-left: 10px;
 	display: inline-block;
 	font-family: 'Josefin Sans', sans-serif;
 
 }
 
+/* footer section */
+
 .content-footer {
 	margin-top: 5em;
 	text-align: center;
+	color: #fff;
+	background-color: #800000;
+	padding: 20px;
+	text-align: center;
 }
 
-.content-footer li {
+.social li {
 	list-style: none;
 	display: inline-block;
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
+	color: #fff;
+}
 
+a {
+	color: #fff;
+}
 
+a:hover {
+	color: blue;
+}
+
+.social {
+	padding: 0;
 }
