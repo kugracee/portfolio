@@ -18,10 +18,10 @@
 }
 
 .top-nav .content {
-	width: 100px
-	height: 70px;
+	height: 90px;
 	margin: 0 auto;
-	padding: 0px 20px;
+	padding-right: 70px;
+	padding-left: 30px;
 	box-sizing: border-box;
 }
 
@@ -29,7 +29,7 @@
 	float: right;
 	color: #002954;
 	font-size: 18px;
-	margin-top: 30px;
+	margin-top: 40px;
 	margin-right: 50px;
 	padding-left: 100px;
 	-webkit-font-smoothing: antialiased;
@@ -47,8 +47,9 @@
 .image {
   	background-image: url("http://alqueria.cl/bg/images/image1.jpg");
 	height: 700px;
-	width: 100%
+	width: 100%;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .image h1, h3 {
@@ -74,6 +75,29 @@
 	-webkit-font-smoothing: antialiased;
 }
 
+/*About Me*/
+
+.about-me {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+
+}
+
+.about-me h1 {
+	-webkit-font-smoothing: antialiased;
+	color: #800000;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+
+.about-me p {
+	padding: 0 100px;
+	font-size: 18px;
+	color: #002954;
+	padding-top: 20px;
+
+}
+
 
 /*Projects Section*/
 
@@ -86,13 +110,13 @@
 	-webkit-font-smoothing: antialiased;
 	color: #800000;
 	text-transform: uppercase;
-	padding-top: 50px;
-
+	padding-top: 30px;
+	
 }
 
 h4 {
 	color: #002954;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .work {
@@ -101,7 +125,7 @@ h4 {
 
 .work li {
 	list-style: none;
-	padding-top: 50px;
+	padding-top: 20px;
 	padding-left: 10px;
 	display: inline-block;
 	font-family: 'Josefin Sans', sans-serif;
